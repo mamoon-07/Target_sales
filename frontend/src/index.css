@@ -1,0 +1,19 @@
+* { box-sizing: border-box; font-family: Inter, Arial, sans-serif; }
+body { margin: 0; background: #f6f7f9; color: #333 }
+.app { display: flex; height: 100vh }
+.sidebar { width: 220px; background: #fff; border-right: 1px solid #eee; padding: 24px }
+.header { padding: 18px 24px; background: #fff; border-bottom: 1px solid #eee; display:flex; justify-content:space-between; align-items:center }
+.content { flex:1; padding: 24px }
+.card { background: #fff; border-radius:8px; padding: 16px }
+.table { width: 100%; border-collapse: collapse; margin-top: 12px }
+.table th { background: #0ba77a; color: white; text-align:left; padding: 12px }
+.table td { padding: 18px; border-bottom: 1px solid #f0f0f0 }
+.controls { display:flex; gap:8px; align-items:center }
+.search { padding:8px 12px; border:1px solid #ddd; border-radius:6px }
+.btn { background:#0ba77a; color:white; border:none; padding:8px 12px; border-radius:6px; cursor:pointer }
+.btn.secondary { background:transparent; color:#0ba77a; border:1px solid #0ba77a }
+.form-row { display:flex; gap:8px; margin-bottom:8px }
+.input { padding:8px 10px; border:1px solid #ddd; border-radius:6px; width:100% }
+.modal { position:fixed; left:50%; top:50%; transform:translate(-50%,-50%); background:white; padding:18px; border-radius:8px; box-shadow:0 10px 30px rgba(0,0,0,0.15); z-index:40 }
+.overlay { position:fixed; inset:0; background:rgba(0,0,0,0.3) }
+.small-muted { color:#666; font-size:13px }
